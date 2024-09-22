@@ -1,0 +1,12 @@
+{
+  "sound.kill_sound.kill1": "%s首杀！",
+  "sound.kill_sound.kill2": "%s二连击！",
+  "sound.kill_sound.kill3": "%s三连击！",
+  "sound.kill_sound.kill4": "%s四连击！",
+  "sound.kill_sound.kill5": "%s无人能敌！",
+  "title.kill_sound.kill1": "击杀",
+  "title.kill_sound.kill2": "二杀",
+  "title.kill_sound.kill3": "三杀",
+  "title.kill_sound.kill4": "四杀",
+  "title.kill_sound.kill5": "无人能敌"
+}

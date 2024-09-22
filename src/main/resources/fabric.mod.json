@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "kill_sound",
+  "version": "${version}",
+  "name": "击杀特效自定义",
+  "description": "为游戏添加了击杀时的横幅显示和游戏消息覆盖\n可使用资源包自定义",
+  "authors": [
+    "gly091020"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/kill_sound/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.kill_sound.client.KillSoundClient"
+    ],
+    "main": [
+      "com.kill_sound.KillSound"
+    ]
+  },
+  "mixins": [
+    "kill_sound.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
